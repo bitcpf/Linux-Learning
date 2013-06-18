@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ed base.txt << !BITCPF!
+3
+d
+i
+this is line 3 new.
+.
+w
+q
+!BITCPF!
